@@ -1,0 +1,28 @@
+package Chapter01;
+
+public class ArrayEx01 {
+	public static void main(String[] args){
+		int[] a = new int[4];
+		a[0] = 10;
+		a[1] = 20;
+		a[2] = 30;
+		a[3] = 40;
+		//a[4] = 40;		//예외 발생 (ArrayIndexOutOfBound)
+		
+		int sum = 0;
+		int lenth = a.length;
+		for(int i = 0; i < lenth ; i++){
+			
+		}
+		
+		//확장문 for문(for~each문)
+		for(int value : a){
+			System.out.println(value);
+		}
+		
+		//배열의 선언
+		int[] intArray1 = new int[4];		//추천 .
+		int intArray2[] = new int[3];		//비추천.
+		
+	}
+}
